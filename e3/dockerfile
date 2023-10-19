@@ -1,0 +1,4 @@
+FROM bash:4.4
+COPY stateexample.sh /stateexample
+RUN chmod +x /stateexample
+CMD ["bash", "/stateexample"]
